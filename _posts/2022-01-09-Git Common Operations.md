@@ -8,13 +8,9 @@ git branch
 
 ### 切换分支
 
-\*\*
-
 ```
 git checkout -b (branchname) 命令来创建新分支并立即切换到该分支下，从而在该分支中操作。
 ```
-
-\*\*
 
 ### 删除分支
 
@@ -58,13 +54,9 @@ git add .
 
 ### 修改最近一次 commit 的信息
 
-\*\*
-
 ```
 git commit --amend
 ```
-
-\*\*
 
 ### 修改老旧 commit 的信息
 
@@ -72,31 +64,19 @@ git commit --amend
 git rebase -i commitId
 ```
 
-\*\*
-
 ```
 r
 ```
 
-\*\*
-
 ### merge 多个 commit
-
-\*\*
 
 ```
 git rebase -i commitId
 ```
 
-\*\*
-
-\*\*
-
 ```
 s
 ```
-
-\*\*
 
 ## 比较差异
 
@@ -110,7 +90,7 @@ s
 
 **如果只想比较某个文件**
 
-\*\*git diff -- fileName1 fileName2 ...
+git diff -- fileName1 fileName2 ...
 
 ## 如何让暂存区恢复成和 HEAD 的一样？
 
@@ -120,13 +100,9 @@ s
 
 ## 如何让工作区的文件恢复为和暂存区一样？
 
-\*\*
-
 ```
 git checkout .
 ```
-
-\*\*
 
 ```
 git checkout -- fileName1 fileName2
